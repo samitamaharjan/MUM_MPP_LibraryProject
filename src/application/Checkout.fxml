@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="333.0" prefWidth="578.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.IssueContoller">
+   <children>
+      <TableView fx:id="bookTable" layoutX="59.0" layoutY="75.0" prefHeight="128.0" prefWidth="462.0">
+        <columns>
+          <TableColumn fx:id="bookTitle" prefWidth="107.0" text="Book Title" />
+          <TableColumn fx:id="bookIsbn" prefWidth="97.0" text="Book Isbn" />
+            <TableColumn fx:id="bookType" prefWidth="95.0" text="Book Type" />
+        </columns>
+      </TableView>
+      <Label layoutX="59.0" layoutY="30.0" prefHeight="17.0" prefWidth="177.0" text="Book Details">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnIssueBook" layoutX="406.0" layoutY="232.0" mnemonicParsing="false" onAction="#issueClicked" prefHeight="25.0" prefWidth="115.0" text="Issue">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

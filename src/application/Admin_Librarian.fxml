@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="closeCurrentWindow" prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminLibrarianController">
+   <children>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="7.0" prefHeight="50.0" prefWidth="600.0" text="Admin and Librarian" textFill="#834a4a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="addLibMem" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="96.0" mnemonicParsing="false" onAction="#addLibMemClick" prefHeight="30.0" prefWidth="197.0" text="Add Library Member">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="editLibMem" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="151.0" mnemonicParsing="false" onAction="#editLibMemClick" prefHeight="30.0" prefWidth="197.0" text="Edit Library Member">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="addBook" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="206.0" mnemonicParsing="false" onAction="#addBookClick" prefHeight="30.0" prefWidth="197.0" text="Add New Book">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="checkoutBook" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="258.0" mnemonicParsing="false" onAction="#checkoutBookClick" prefHeight="30.0" prefWidth="197.0" text="Checkout Book">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="addBookCopyBook" layoutX="202.0" layoutY="310.0" mnemonicParsing="false" onAction="#addBookCopyClick" prefHeight="25.0" prefWidth="197.0" text="Add Book Copy">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

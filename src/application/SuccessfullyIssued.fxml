@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="closeCurrentWindow" prefHeight="600.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SuccessfullyIssued">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="47.0" prefHeight="35.0" prefWidth="700.0" text="Book Issued Successfully">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="157.0" text="Member ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="200.0" text="Book Title">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="memId" layoutX="337.0" layoutY="154.0" prefHeight="25.0" prefWidth="197.0" />
+      <Label fx:id="bookTitle" layoutX="338.0" layoutY="197.0" prefHeight="25.0" prefWidth="197.0" />
+      <Button fx:id="btnOkConfirmation" layoutX="337.0" layoutY="389.0" mnemonicParsing="false" onAction="#addBookClicked" prefHeight="25.0" prefWidth="197.0" text="Ok">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="133.0" layoutY="337.0" text="Overdue Date">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="overdueDate" layoutX="338.0" layoutY="334.0" prefHeight="25.0" prefWidth="197.0" />
+      <Label layoutX="133.0" layoutY="247.0" text="Book ISBN">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="290.0" text="Date of Issue">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="bookIsbn" layoutX="338.0" layoutY="244.0" prefHeight="25.0" prefWidth="197.0" />
+      <Label fx:id="dateOfIssue" layoutX="337.0" layoutY="288.0" prefHeight="25.0" prefWidth="197.0" />
+   </children>
+</AnchorPane>

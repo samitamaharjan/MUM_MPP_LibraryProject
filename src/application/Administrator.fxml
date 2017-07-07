@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="closeCurrentWindow" prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdministratorController">
+   <children>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="30.0" prefHeight="35.0" prefWidth="589.0" text="Administrator" textFill="#945555">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAddMember" alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="119.0" mnemonicParsing="false" onAction="#addMemberClicked" prefHeight="30.0" prefWidth="238.0" text="Add Member">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btnEditMember" layoutX="182.0" layoutY="176.0" mnemonicParsing="false" onAction="#editMemberClicked" prefHeight="30.0" prefWidth="238.0" text="Edit Member">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btnAddBook" layoutX="182.0" layoutY="234.0" mnemonicParsing="false" onAction="#addBookClicked" prefHeight="30.0" prefWidth="238.0" text="Add New Book">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btnAddBookCopy" layoutX="182.0" layoutY="289.0" mnemonicParsing="false" onAction="#addBookCopyClicked" prefHeight="30.0" prefWidth="238.0" text="Add Book Copy">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

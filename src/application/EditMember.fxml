@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="closeCurrentWindow" prefHeight="500.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EditMemberController">
+   <children>
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="35.0" prefWidth="700.0" text="Edit Member">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="72.0" prefHeight="21.0" prefWidth="80.0" text="Member ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="116.0" text="First Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="154.0" text="Last Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="194.0" prefHeight="21.0" prefWidth="43.0" text="Street">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="238.0" text="City">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="274.0" prefHeight="21.0" prefWidth="40.0" text="State">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="319.0" text="Zip">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="359.0" text="Phone">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="memId" layoutX="361.0" layoutY="70.0" />
+      <TextField fx:id="fname" layoutX="361.0" layoutY="114.0" />
+      <TextField fx:id="lname" layoutX="361.0" layoutY="152.0" />
+      <TextField fx:id="street" layoutX="361.0" layoutY="192.0" />
+      <TextField fx:id="city" layoutX="361.0" layoutY="236.0" />
+      <TextField fx:id="state" layoutX="361.0" layoutY="272.0" />
+      <TextField fx:id="zip" layoutX="361.0" layoutY="317.0" />
+      <TextField fx:id="phone" layoutX="361.0" layoutY="357.0" />
+      <Button fx:id="btnEditMember" layoutX="190.0" layoutY="406.0" mnemonicParsing="false" onAction="#editMemberClicked" prefHeight="25.0" prefWidth="149.0" text="Edit">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btnBack" layoutX="361.0" layoutY="406.0" mnemonicParsing="false" onAction="#btnBackClicked" prefHeight="30.0" prefWidth="149.0" text="Cancel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
